@@ -15,6 +15,10 @@
 		CDBE309624C6250300829456 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDBE309424C6250300829456 /* LaunchScreen.storyboard */; };
 		CDBE30A124C6250300829456 /* DiffableDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE30A024C6250300829456 /* DiffableDataSourceTests.swift */; };
 		CDBE30AC24C6250300829456 /* DiffableDataSourceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE30AB24C6250300829456 /* DiffableDataSourceUITests.swift */; };
+		CDBE30BA24C6259200829456 /* officeEpisodes.json in Resources */ = {isa = PBXBuildFile; fileRef = CDBE30B924C6259200829456 /* officeEpisodes.json */; };
+		CDBE30BC24C625BB00829456 /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE30BB24C625BB00829456 /* Episode.swift */; };
+		CDBE30BE24C625D700829456 /* Season.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE30BD24C625D700829456 /* Season.swift */; };
+		CDBE30C024C6261E00829456 /* BundleFetchingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE30BF24C6261E00829456 /* BundleFetchingService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		CDBE30A724C6250300829456 /* DiffableDataSourceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DiffableDataSourceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDBE30AB24C6250300829456 /* DiffableDataSourceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffableDataSourceUITests.swift; sourceTree = "<group>"; };
 		CDBE30AD24C6250300829456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDBE30B924C6259200829456 /* officeEpisodes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = officeEpisodes.json; sourceTree = "<group>"; };
+		CDBE30BB24C625BB00829456 /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
+		CDBE30BD24C625D700829456 /* Season.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Season.swift; sourceTree = "<group>"; };
+		CDBE30BF24C6261E00829456 /* BundleFetchingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleFetchingService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		CDBE307D24C624FE00829456 = {
 			isa = PBXGroup;
 			children = (
+				CDBE30B924C6259200829456 /* officeEpisodes.json */,
 				CDBE308824C624FF00829456 /* DiffableDataSource */,
 				CDBE309F24C6250300829456 /* DiffableDataSourceTests */,
 				CDBE30AA24C6250300829456 /* DiffableDataSourceUITests */,
@@ -100,6 +109,9 @@
 			isa = PBXGroup;
 			children = (
 				CDBE308924C624FF00829456 /* AppDelegate.swift */,
+				CDBE30BB24C625BB00829456 /* Episode.swift */,
+				CDBE30BF24C6261E00829456 /* BundleFetchingService.swift */,
+				CDBE30BD24C625D700829456 /* Season.swift */,
 				CDBE308B24C624FF00829456 /* SceneDelegate.swift */,
 				CDBE308D24C624FF00829456 /* ViewController.swift */,
 				CDBE308F24C624FF00829456 /* Main.storyboard */,
@@ -235,6 +247,7 @@
 				CDBE309624C6250300829456 /* LaunchScreen.storyboard in Resources */,
 				CDBE309324C6250300829456 /* Assets.xcassets in Resources */,
 				CDBE309124C624FF00829456 /* Main.storyboard in Resources */,
+				CDBE30BA24C6259200829456 /* officeEpisodes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBE308E24C624FF00829456 /* ViewController.swift in Sources */,
+				CDBE30BC24C625BB00829456 /* Episode.swift in Sources */,
+				CDBE30BE24C625D700829456 /* Season.swift in Sources */,
 				CDBE308A24C624FF00829456 /* AppDelegate.swift in Sources */,
 				CDBE308C24C624FF00829456 /* SceneDelegate.swift in Sources */,
+				CDBE30C024C6261E00829456 /* BundleFetchingService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
